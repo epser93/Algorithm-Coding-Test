@@ -20,6 +20,7 @@ def dfs(idx,result):
             else: # 나눗셈의 경우 음수 나눗셈 때문에 주의가 필요함. int형을 통해 버림을 취함
                 new_result = int(result / number[idx+1])
             dfs(idx+1,new_result)
+            print(new_result)
             moderator[i] += 1
 
 T = int(input())
