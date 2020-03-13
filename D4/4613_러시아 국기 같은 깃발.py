@@ -3,7 +3,7 @@ for t in range(T):
     N, W = map(int,input().split())
     mapp = [input() for _ in range(N)]
     min_cnt = 99999999
-    for i in range(1,N-1): # W줄 개수 
+    for i in range(1,N-1): # W줄 개수
         for j in range(1,N-1): # B줄 개수
             if i+j >= N: # W + B 줄이 전체 행 길이 이상이면 R줄 못쓰니까 break
                 break
