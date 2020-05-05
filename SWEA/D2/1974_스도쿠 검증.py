@@ -2,7 +2,6 @@
 def row(arr):
     for x in range(9):
         arr =[]
-        check = 0
         for y in range(9):
             if game_map[x][y] in arr:
                 return 0
@@ -14,7 +13,6 @@ def row(arr):
 def col(arr):
     for y in range(9):
         arr =[]
-        check = 0
         for x in range(9):
             if game_map[x][y] in arr:
                 return 0
