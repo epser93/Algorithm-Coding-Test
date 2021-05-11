@@ -34,8 +34,6 @@ def shift(x1, y1, x2, y2, row, col):
             nowY = nextY
     return min(temp)
 
-    1,1 > 4,3
-
 def solution(rows, columns, queries):
     global board
     board = makeBoard(rows, columns)
