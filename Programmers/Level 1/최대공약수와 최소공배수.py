@@ -1,3 +1,14 @@
+# 유클리디안 호제법
+# def gcdlcm(a, b):
+#     c, d = max(a, b), min(a, b)
+#     t = 1
+#     while t > 0:
+#         t = c % d
+#         c, d = d, t
+#     answer = [c, int(a*b/c)]
+
+#     return answer
+
 def solution(n, m):
     minNum = min(n, m)
     maxNum = max(n, m)
