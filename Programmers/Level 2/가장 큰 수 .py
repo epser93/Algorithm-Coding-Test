@@ -1,8 +1,5 @@
 # 풀이 1 자릿수 비교
 def solution(numbers):
-    for num in numbers:
-        print(str(num) * 4)
-    print(sorted(list(map(str, numbers)), key=lambda x : x * 4, reverse=True))
     return str(int(''.join(sorted(list(map(str, numbers)), key=lambda x : x * 4, reverse=True))))
 
 # 풀이 2 Custom Sort
