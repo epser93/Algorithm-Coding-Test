@@ -25,7 +25,7 @@ def getDeleteMin(keys):
 def solution(relation):
     keys = getKeys(relation)
     uniqueKeys = getUniqueSet(relation, keys)
-    result = getDeleteMin(relation, uniqueKeys)
+    result = getDeleteMin(uniqueKeys)
     return len(result)
 
 if __name__ == "__main__":
